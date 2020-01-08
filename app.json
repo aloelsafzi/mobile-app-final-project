@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "sweet hotel",
+    "slug": "frontend-ayokosin-mobile",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/hotel-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pascalenigma.sweethotel"
+    },
+    "android": {
+      "package": "com.pascalenigma.sweethotel"
+    }
+  }
+}
